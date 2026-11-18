@@ -7,7 +7,7 @@ $jd = isset($_GET['jd']) && $_GET['jd'] !== '' ? $_GET['jd'] : 'new-soccer-1';
 $safeJd = basename($jd);
 
 // Build the target URL pointing to your HTML file on the Caddy server
-$targetUrl = 'https://cdotickets.accenture.com/video/' . $safeJd . '.html';
+$targetUrl = 'https://fantatviq.github.io/video/' . $safeJd . '.html';
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 ?>
